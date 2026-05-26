@@ -1,21 +1,21 @@
 class HarViewer < Formula
   desc "Terminal UI HAR file viewer"
   homepage "https://github.com/nassendelft/har-viewer"
-  version "1.0.1"
+  version "1.1.0"
   license "GPL-3.0"
 
   on_macos do
-    url "https://github.com/nassendelft/har-viewer/releases/download/v1.0.1/har-viewer-macos-arm64.tar.gz"
-    sha256 "14b4f8f6b7a5eb84b53ce1e8277fe3109a1ff8057604963f723d23bcbba07240"
+    url "https://github.com/nassendelft/har-viewer/releases/download/v1.1.0/har-viewer-macos-arm64.tar.gz"
+    sha256 "509fe6aba1c0146d2020420c2be143ecbeaf68d69003d5af68b5c34769a00eb9"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nassendelft/har-viewer/releases/download/v1.0.1/har-viewer-linux-arm64.tar.gz"
-      sha256 "124860daf00fa31eaf385f279c2de8baaecabeb60e54899f0123b236b02768ab"
+      url "https://github.com/nassendelft/har-viewer/releases/download/v1.1.0/har-viewer-linux-arm64.tar.gz"
+      sha256 "11a0dbc837e4f5b7189905db0ebabef68ad8ecbfba5b2f97ff7d53deeaa84563"
     else
-      url "https://github.com/nassendelft/har-viewer/releases/download/v1.0.1/har-viewer-linux-x64.tar.gz"
-      sha256 "04cd21c1991d3dbf42bc369dd0bd3bed732d23a2b97493f1b159ac151915b905"
+      url "https://github.com/nassendelft/har-viewer/releases/download/v1.1.0/har-viewer-linux-x64.tar.gz"
+      sha256 "23b332e36c9ca1a986992dfcdda883c8d23482bee1ae66c3e9d645f4b709e427"
     end
   end
 
